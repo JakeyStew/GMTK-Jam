@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2277926003941502238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2277926003941502235}
+  - component: {fileID: 2277926003941502233}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2277926003941502235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277926003941502238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -27.555508, y: -28.482918, z: -19.033157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2277926003941502233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277926003941502238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a509e22659f664da08c1c3b65a1366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 09525b7ac449a634cabf5e7b3786a399, type: 3}
+  muteBackground: 0
+  masterVolume: 0.1
+  backgroundVolume: 1
+  effectsVolume: 1
+  audioClips:
+  - identifier: Minigun
+    clip: {fileID: 8300000, guid: a6ee8271ec9059149b833ba8f365473e, type: 3}
+  - identifier: Pistol
+    clip: {fileID: 8300000, guid: 86bd362d2004a0a41a15de315b427848, type: 3}
+  - identifier: Rifle
+    clip: {fileID: 8300000, guid: 8cfefa4027af66b4b8949c8483a2a9a5, type: 3}
